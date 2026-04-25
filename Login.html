@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login – Admin Radical</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <nav>
+    <a href="./index.html" class="logo">RADICAL</a>
+    <ul>
+      <li><a href="./index.html">← Volver a la tienda</a></li>
+    </ul>
+  </nav>
+
+  <div class="login-wrapper">
+    <div class="login-box">
+      <div class="logo-login">RADICAL</div>
+      <h2>Panel Administrador</h2>
+
+      <form action="dashboard.html" method="get">
+        <div class="form-grupo">
+          <label for="usuario">Usuario</label>
+          <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" required>
+        </div>
+
+        <div class="form-grupo">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" name="contrasena" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-submit">Ingresar</button>
+
+        <p class="form-link"><a href="./index.html">← Volver a la tienda</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
